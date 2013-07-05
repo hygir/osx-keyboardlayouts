@@ -361,12 +361,16 @@ Full-Width Styles
   background-position: -90px -70px;
 }
 
+.dmg_download_link:hover {
+  background-position: -180px 0px;
+}
+
 .zip_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top left;
+  background-position: 0px 0px;
 }
 
 .tar_download_link:hover {
-  background: url(../images/sprite_download.png) no-repeat top right;
+  background-position: -90px 0px;
 }
 
 #main_content_wrap {
